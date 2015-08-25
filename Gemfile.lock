@@ -1,0 +1,54 @@
+PATH
+  remote: .
+  specs:
+    bits-n-pieces (0.1.0)
+      babel-transpiler
+      bourbon
+      neat
+      sass
+      sprockets
+      uglifier
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    babel-source (5.8.19)
+    babel-transpiler (0.7.0)
+      babel-source (>= 4.0, < 6)
+      execjs (~> 2.0)
+    bourbon (4.2.4)
+      sass (~> 3.4)
+      thor (~> 0.19)
+    byebug (5.0.0)
+      columnize (= 0.9.0)
+    coderay (1.1.0)
+    columnize (0.9.0)
+    execjs (2.6.0)
+    json (1.8.3)
+    method_source (0.8.2)
+    neat (1.7.2)
+      bourbon (>= 4.0)
+      sass (>= 3.3)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-byebug (3.2.0)
+      byebug (~> 5.0)
+      pry (~> 0.10)
+    rack (1.6.4)
+    sass (3.4.17)
+    slop (3.6.0)
+    sprockets (3.3.3)
+      rack (~> 1.0)
+    thor (0.19.1)
+    uglifier (2.7.1)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bits-n-pieces!
+  pry-byebug
