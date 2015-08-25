@@ -1,5 +1,7 @@
 # Bits n Pieces
 
+[![Gem Version](https://badge.fury.io/rb/bits-n-pieces.svg)](http://badge.fury.io/rb/bits-n-pieces)
+
 This library was built to play with [pieces][pieces], a front end toolkit for
 ruby.
 
