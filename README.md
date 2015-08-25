@@ -14,13 +14,15 @@ Just add the following lines to your Gemfile:
 ``` ruby
 gem 'pieces'
 gem 'bits-n-pieces'
+gem 'sprockets', github: 'rails/sprockets' # using master until v4 released
 ```
 
 ## Batteries Included
 
+ - [Sass][sass]
  - [Bourbon][bourbon]
  - [Neat][neat]
- - [Sass][sass]
+ - [Babel][babel]
  - [Uglifier][uglifier]
  - [Normalize][normalize]
  - and other bits I find useful
@@ -61,8 +63,9 @@ html {
 ```
 
 [pieces]: https://github.com/drpheltright/pieces
+[sass]: http://sass-lang.com/
 [bourbon]: http://bourbon.io/
 [neat]: http://neat.bourbon.io/
-[sass]: http://sass-lang.com/
+[babel]: https://github.com/babel/ruby-babel-transpiler
 [uglifier]: https://github.com/lautis/uglifier
 [normalize]: https://necolas.github.io/normalize.css/
