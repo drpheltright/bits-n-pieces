@@ -19,7 +19,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'bourbon'
   spec.add_dependency 'neat'
   spec.add_dependency 'sass'
-  spec.add_dependency 'sprockets'
   spec.add_dependency 'uglifier'
   spec.add_development_dependency 'pry-byebug'
 end
